@@ -20,7 +20,7 @@ function WorkoutDetails({workout}) {
         })
         const json = await response.json()
 
-        if (response.ok == true) {
+        if (response.ok === true) {
             dispatch({type: 'DELETE_WORKOUT', payload: json})
         }
     }

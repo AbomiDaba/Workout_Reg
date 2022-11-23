@@ -3,7 +3,7 @@
 
 /* layout */
 :root {
-  --primary: orange;
+  --primary: rgb(71, 189, 71);
   --error: #e7195a;
 }
 body {
@@ -119,8 +119,8 @@ nav button {
   font-size: 1em;
   margin-left: 10px;
 }
-.orange {
-  color: orange;
+.green {
+  color: rgb(71, 189, 71);
 }
 
 /* auth forms */

@@ -15,7 +15,7 @@ function Navbar() {
     <header >
         <div className="container">
             <Link to = '/'>
-                <h1><bold className= 'orange'>Workout</bold> Reg</h1>
+                <h1><bold className= 'green'>Workout</bold> Reg</h1>
             </Link>
             <nav>
                 {user && (
